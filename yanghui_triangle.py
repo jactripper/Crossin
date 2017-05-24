@@ -17,4 +17,4 @@ def generate_yh(m):
         layer.append(0)
         layer = [(layer[i-1] + layer[i]) for i in range(len(layer))]
 
-generate_yh(5)
+generate_yh(10)
